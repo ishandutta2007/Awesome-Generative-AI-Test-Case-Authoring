@@ -1,34 +1,57 @@
-# Awesome-Generative-AI-Test-Case-Authoring
+# Awesome Generative AI Test Case Authoring 🧪🤖
 
-## Top Generative AI Test Case Authoring Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Generative AI Test Case Authoring Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
-*Focused on Requirements-to-Test Generation, AI-Assisted Authoring & Self-Hosted Test Generation Engines*  
-**Last updated: March 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring?style=flat-square&color=red" alt="Open Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Generative AI Test Case Authoring**. These tools help QA teams turn requirements, user stories, and specifications into structured test cases—covering everything from embedded AI assistants in test management platforms to open-source generators that produce pytest, JUnit, or Playwright code from plain-language descriptions and code analysis.
+---
 
-**Examples** include Qase AI, Testmo AI, Katalon Studio AI, QF-Test 11, Testim Copilot, Functionize, testRigor, and open-source alternatives like Voylla and Cover-Agent (the category leaders).
+## 🌟 Overview & Ecosystem Guide
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted test generation, open-source AI authoring, and community-driven test design—ideal for teams seeking data sovereignty and avoiding per-credit or per-seat AI add-on pricing. The open-source landscape is genuinely functional: **Voylla** generates unit, integration, and edge-case tests for Python, Java, and JavaScript , and **Cover-Agent** iteratively generates and validates tests until a coverage target is met .
+Welcome to the definitive, community-curated collection of **Generative AI Test Case Authoring** platforms, autonomous QA agents, and LLM-assisted testing tools. 
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+Whether you are seeking enterprise-grade SaaS platforms that transform user stories, Jira tickets, or OpenAPI specifications into automated test suites, or open-source test generation engines for self-hosted data sovereignty, this repository tracks the leading tools reshaping modern quality engineering.
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+### 🎯 Key Capabilities Tracked
+* 📝 **Requirements-to-Test Synthesis:** Transforming PRDs, agile tickets, and Gherkin specs into executable tests.
+* 🤖 **Autonomous Test Generation Agents:** Multi-agent LLM pipelines generating unit, integration, and API test suites.
+* 🔄 **Self-Healing Automation:** Dynamic UI locator repair and runtime assertion maintenance without human intervention.
+* 🛡️ **Self-Hosted / Open-Source Engines:** Community frameworks ensuring strict data security and local model deployment.
 
-## Sector Overview & Market Dynamics
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global AI-powered software testing and test automation market is estimated at **$1.5B to $4.5B** (part of the broader $12B+ AI quality engineering space) and is expanding at an estimated **20%–27% CAGR**. Market dynamics are currently **moderately fragmented transitioning toward consolidation**: while a wave of fast-moving AI-native startups and open-source agents drive rapid innovation at the point-solution tier, established enterprise testing suites (e.g., Tricentis, BrowserStack) are aggressively acquiring or embedding agentic AI authoring tools into their broader platforms rather than seeing a single winner-take-all monopoly emerge.
 
-## SaaS/Hosted Platforms
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+*Enterprise SaaS platforms ordered descending by company scale (Valuation / Revenue).*
 
 | Product | Company Scale (Valuation / Revenue) | Pricing (Starting) | Free Tier / Trial Limits | Description |
-|---------|------------------------------------|-------------------|--------------------------|-------------|
+|:---|:---|:---|:---|:---|
 | **[Testim Copilot](https://www.testim.io/blog/tricentis-testim-copilot-announcement/)** | **~$4.5B valuation** (Tricentis GTCR round) / **~$500M ARR** | Paid plans start at **$450/month** (entry parallelization tiers; quote-based annual enterprise packages) | **Free Community tier** (up to 1,000 runs/mo, single-run serialization); **14-day free trial** of full platform | **Generative AI add-on for Testim.** **Generate**: produces custom test steps from text descriptions. **Explain**: clarifies any JavaScript code. **Fix**: analyzes code and suggests corrections for debugging. Integrates directly into Testim test editor—no external tools needed. |
 | **[BrowserStack AI Test Case Generator Agent](https://www.browserstack.com/)** | **$4.0B valuation** (Series B) / **~$225M–$300M+ revenue** | Paid plans start at **$29/user/month** (Live billed annually, or $39/mo monthly); Automate plans start at **$59/month** (annual) | **Free Trial**: 30 mins manual live testing, 100 mins automated cross-browser testing; Percy free tier includes **5,000 screenshots/month** | AI agent within BrowserStack for generating test cases and test automation workflows directly integrated into BrowserStack's cross-browser and mobile cloud infrastructure. |
 | **[Katalon Studio AI](https://docs.katalon.com/katalon-studio/create-test-cases/generate-api-tests-with-ai-beta)** | **$30M total funding** / **~$36M estimated ARR** | Paid plans start at **$150/user/month** (Premium/Professional, billed annually at $1,800/yr) | **Katalon Free Plan** (perpetual free tier for local test authoring and execution); **30-day free trial** of Studio Enterprise & TestOps | **AI agent generates and runs API tests directly from OpenAPI specifications.** Import spec (URL or file), select test types (Positive, Negative, Security, Edge Case), API paths, and HTTP methods. **Generates tests, runs them, and reports results** with compliance scores and AI-detected issues. **Save as Katalon test cases** for ongoing use. |
@@ -38,37 +61,68 @@ The global AI-powered software testing and test automation market is estimated a
 | **[Testmo AI](https://www.testmo.com/blog/introducing-ai-test-case-generation-in-testmo-beta/)** | **Acquired / Backed by Sembi** (bootstrapped to 1,000+ customers) | Team plan starts at **$99/month** (flat rate for up to 10 users; 15% discount billed annually) | **21-day free trial** with full access to test management and AI generation; no perpetual free tier (requires paid plan after trial) | **AI Test Case Generation (Beta) available to all Testmo users across all plans.** Generates structured, reviewable test cases directly from requirements with **human-in-the-loop review**—AI suggests, you edit/refine/deselect, then generate final cases in Text, Steps, or BDD format. **Traceability by default**: generated cases are tagged as AI-generated and linked back to originating requirements. |
 | **[QF-Test 11](https://www.qftest.com/fr/entreprise/nouvelles/newsletter/qf-test-11-now-available-generate-test-cases-with-ai-securely-and-efficiently.html)** | **Acquired by mgm technology partners** / Private GmbH (~25 employees, 1,400+ clients) | Subscriptions start at **€60/month (~$65/mo)** for Runtime license (annual billing); full authoring Developer licenses from ~€2,000+ or quote | **4-week (28-day) free trial** with fully functional evaluation license file upon request; free download allows tutorial evaluation | **"Bring your own model" AI test generation for UI automation.** Describe what to test—the built-in AI agent **inspects your application live** and delivers a ready-to-run test case draft within minutes. **AI Instruction nodes** embed plain-language instructions into test runs. **OpenAPI import** generates complete API test suites with CRUD tests. **MCP server** lets external AI agents (Claude Code, GitHub Copilot) control QF-Test. |
 
-## Open-Source GitHub Projects
+---
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Voylla](https://pypi.org/project/voylla/)** | — | **The most complete open-source multi-language test generator.** **AI-powered agent that analyzes code and generates comprehensive test cases** for Python, Java, and JavaScript . **Comprehensive test generation**: unit, integration, and edge cases. **Code analysis** detects edge conditions and performance risks. **Coverage reports** analyze test coverage gaps. **Interactive refinement**: conversational test case improvement. **CI integration**: GitHub Actions support for PR test suggestions . **Multi-provider AI**: OpenAI GPT-4, Anthropic Claude, Google Gemini, or **mock mode without API keys** . Install: `pip install voylla` . **Best for developers wanting a scriptable test generator** across multiple languages with optional AI enhancement . |
-| **[Cover-Agent (CodiumAI)](https://github.com/Codium-ai/cover-agent)** | — | **The first known open-source implementation of Meta's TestGen-LLM paper.** **Iteratively generates and validates unit tests until a coverage target is met** . **Four-component pipeline**: Test Runner (executes tests, generates coverage), Coverage Parser (validates coverage increases), Prompt Builder (gathers codebase context), AI Caller (generates tests) . **Supports OpenAI and 100+ LLMs via LiteLLM** . Install as pip package or standalone binary (no Python required) . **4.1k GitHub stars** . **Best for teams wanting coverage-driven test generation** with a proven research-backed approach . |
+## 💻 Open-Source GitHub Projects
 
-### Additional Strong Open-Source Options
+*Open-source GitHub repositories sorted descending by GitHub Star Count.*
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[TestAxiom](https://pypi.org/project/testaxiom/)** | — | **Mathematically grounded test generation—not LLM-based.** Generates test cases using **Equivalence Partitioning, Boundary Value Analysis, Decision Tables, State Transitions, and Pairwise testing** . **Free text to pytest tests** in 4 lines: `parse_and_analyze("User age must be between 18 and 65")` . **87% reduction** from exhaustive testing on age parameter; **88% reduction** on cross-browser/OS matrix . **Deterministic and auditable**—unlike LLM-generated tests, these are reproducible and mathematically provable . **Best for teams wanting rigorous, non-probabilistic test coverage** for input validation and state machines . |
+| Project | GitHub Stars | Description |
+|:---|:---:|:---|
+| **[Keploy](https://github.com/keploy/keploy)** | [![Keploy Stars](https://img.shields.io/github/stars/keploy/keploy?style=social&color=white)](https://github.com/keploy/keploy/stargazers) | **Autonomous API test case and data mock generation from actual traffic.** Captures network interactions and zero-code eBPF calls to generate comprehensive regression and API test cases along with mocks for databases, gRPC, and third-party services. Integrates into CI/CD pipelines to ensure continuous coverage. |
+| **[Cover-Agent / Qodo Cover](https://github.com/qodo-ai/qodo-cover)** | [![Cover Agent Stars](https://img.shields.io/github/stars/qodo-ai/qodo-cover?style=social&color=white)](https://github.com/qodo-ai/qodo-cover/stargazers) | **The first open-source implementation of Meta's TestGen-LLM research.** Iteratively generates and validates unit test suites until target coverage metrics are satisfied. Features a 4-component loop: Test Runner, Coverage Parser, Prompt Builder, and AI Caller. Supports OpenAI, Anthropic, and 100+ LLMs via LiteLLM. |
+| **[Pynguin](https://github.com/se2p/pynguin)** | [![Pynguin Stars](https://img.shields.io/github/stars/se2p/pynguin?style=social&color=white)](https://github.com/se2p/pynguin/stargazers) | **Automated unit test generation framework for Python.** Leverages search-based software testing (SBST) and evolutionary algorithms (DynaMOSA, MIO, Whole Test Suite) to automatically synthesize executable pytest suites targeting maximum branch and statement coverage. |
+| **[EvoSuite](https://github.com/EvoSuite/evosuite)** | [![EvoSuite Stars](https://img.shields.io/github/stars/EvoSuite/evosuite?style=social&color=white)](https://github.com/EvoSuite/evosuite/stargazers) | **Pioneering search-based software testing tool for Java.** Automatically generates JUnit test suites with high code coverage using genetic algorithms and constraint solving. Employs mutation testing to optimize test assertions and minimize test suite footprint. |
+| **[EvoMaster](https://github.com/WebFuzzing/EvoMaster)** | [![EvoMaster Stars](https://img.shields.io/github/stars/WebFuzzing/EvoMaster?style=social&color=white)](https://github.com/WebFuzzing/EvoMaster/stargazers) | **AI-driven evolutionary system-level test generation tool for web APIs.** Generates executable black-box and white-box test cases targeting RESTful APIs, GraphQL, and RPC endpoints. Employs search-based testing with dynamic analysis to expose edge bugs and security flaws. |
+| **[ApiCat](https://github.com/apicat/apicat)** | [![ApiCat Stars](https://img.shields.io/github/stars/apicat/apicat?style=social&color=white)](https://github.com/apicat/apicat/stargazers) | **OpenAPI-native API design, documentation, and automated test case generator.** Integrates LLMs directly with OpenAPI definitions to automatically synthesize structured API test scenarios, data models, edge cases, and automated test collections. |
 
-**Frameworks for building custom systems**: Choose **Voylla** for multi-language AI-assisted test generation with optional LLM enhancement , **Cover-Agent** for coverage-driven iterative unit test generation , or **TestAxiom** for deterministic, mathematically grounded test cases from specifications —all self-hosted without per-credit or per-seat AI fees.
+### 🛠️ Specialized Specification & Custom Generators
 
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- AI test case generators process requirements, code, and potentially sensitive application logic; enforce data handling policies—**verify that your chosen tool does not retain or train on your data** (Qase and Testmo explicitly state customer data is not used for model training [citation:6][citation:7]).
-- **AI test generation is probabilistic and requires human review.** **Testmo's approach is the most disciplined**: AI suggests, you edit/refine/deselect, then generate final cases—keeping traceability by default . **testRigor explicitly warns** that unclear or imprecise application descriptions will derail AI efforts—every command uses that description for context . **QF-Test follows a "bring your own model" approach**—you control which AI provider and model access your test data . **Open-source options have different trade-offs**: Voylla and Cover-Agent rely on LLM APIs (OpenAI, Anthropic, etc.) with associated costs and probabilistic output , while TestAxiom is **deterministic and mathematically provable**—not AI-generated in the LLM sense, but arguably more reliable for input validation and state-machine testing . **Validate whether you need an embedded AI assistant in your test management platform (Qase, Testmo), a code-analysis generator (Voylla, Cover-Agent), or a deterministic specification-based generator (TestAxiom)** before committing.
+* **[TestAxiom](https://pypi.org/project/testaxiom/)**: **Deterministic, mathematically grounded test design engine.** Generates provable test cases from requirement strings using Boundary Value Analysis, Equivalence Partitioning, and Pairwise matrices. Best for non-probabilistic, auditable verification where LLM hallucinations cannot be tolerated.
+* **[Voylla](https://pypi.org/project/voylla/)**: Scriptable multi-language test generator agent supporting Python, Java, and JavaScript with optional LLM API backends or offline mock modes.
 
 ---
 
-**Made for QA engineers, test architects, and teams building AI-assisted test authoring workflows.**  
-Let's make generative AI test case authoring more open, rigorous, and human-controlled.
+## 🤝 How to Contribute
+
+Contributions are welcome and appreciated! To add a new platform or update existing listings:
+
+1. **Fork the Repository** 🍴
+2. **Create a Feature Branch** (`git checkout -b feature/add-new-tool`)
+3. **Add Entry**: Follow the existing Markdown table format with verified pricing, free tier limits, company scale, and links.
+4. **Commit & Push** (`git commit -m "Add ToolName to SaaS/Open-Source table"`)
+5. **Open a Pull Request** 🚀
+
+Please ensure all descriptions remain factual, objective, and reference official project documentation.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated collection helpful for your testing strategy, team, or project, please consider showing your support:
+
+* ⭐ **Star the Repository** on GitHub to help others discover it!
+* 🍴 **Fork and Share** with your QA, DevOps, and engineering teams.
+* ☕ **Sponsor the Project:** Buy us a coffee and support continued maintenance on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated guide** intended for research, informational, and educational purposes. Inclusion does not imply official endorsement.
+- Generative AI and LLM outputs are inherently probabilistic: always incorporate human-in-the-loop review and verify test suites in sandboxed environments before merging into production pipelines.
+- Verify enterprise data handling and compliance policies before feeding proprietary code or requirements into cloud AI endpoints.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for QA Engineers, Test Architects, and Automation Leaders.</b>
+</p>
