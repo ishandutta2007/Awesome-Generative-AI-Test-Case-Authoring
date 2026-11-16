@@ -1,6 +1,6 @@
 # Awesome-Generative-AI-Test-Case-Authoring
 
-# Top Generative AI Test Case Authoring Ecosystem
+## Top Generative AI Test Case Authoring Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Requirements-to-Test Generation, AI-Assisted Authoring & Self-Hosted Test Generation Engines*  
