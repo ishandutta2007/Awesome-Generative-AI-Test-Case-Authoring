@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring?style=flat-square&color=red" alt="Open Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
@@ -65,9 +65,9 @@ The global AI-powered software testing and test automation market is estimated a
 
 ## 💻 Open-Source GitHub Projects
 
-*Open-source GitHub repositories sorted descending by GitHub Star Count.*
+*Open-source GitHub repositories sorted descending by GitHub Stars_Count.*
 
-| Project | GitHub Stars | Description |
+| Project | GitHub_Stars | Description |
 |:---|:---:|:---|
 | **[Keploy](https://github.com/keploy/keploy)** | [![Keploy Stars](https://img.shields.io/github/stars/keploy/keploy?style=social&color=white)](https://github.com/keploy/keploy/stargazers) | **Autonomous API test case and data mock generation from actual traffic.** Captures network interactions and zero-code eBPF calls to generate comprehensive regression and API test cases along with mocks for databases, gRPC, and third-party services. Integrates into CI/CD pipelines to ensure continuous coverage. |
 | **[Cover-Agent / Qodo Cover](https://github.com/qodo-ai/qodo-cover)** | [![Cover Agent Stars](https://img.shields.io/github/stars/qodo-ai/qodo-cover?style=social&color=white)](https://github.com/qodo-ai/qodo-cover/stargazers) | **The first open-source implementation of Meta's TestGen-LLM research.** Iteratively generates and validates unit test suites until target coverage metrics are satisfied. Features a 4-component loop: Test Runner, Coverage Parser, Prompt Builder, and AI Caller. Supports OpenAI, Anthropic, and 100+ LLMs via LiteLLM. |
@@ -126,3 +126,12 @@ If you find this curated collection helpful for your testing strategy, team, or 
 <p align="center">
   <b>Built with ❤️ for QA Engineers, Test Architects, and Automation Leaders.</b>
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Generative-AI-Test-Case-Authoring&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Generative-AI-Test-Case-Authoring_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Generative-AI-Test-Case-Authoring_growth.svg">
+  </picture>
+</a>
